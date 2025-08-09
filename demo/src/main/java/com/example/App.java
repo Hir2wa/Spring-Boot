@@ -1,12 +1,19 @@
 package com.example;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 import com.example.demo.Dev;
-@Component
+
 public class App {
 public static void main(String[] args) {
- Dev dev = new Dev();
- dev.build();
+    ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
+
+ Dev dev =  context.getBean(Dev.class);
+ dev.setAge(9);
+ System.out.println( dev.getAge());
+
 }
 }
