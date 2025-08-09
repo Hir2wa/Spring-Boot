@@ -17,5 +17,11 @@ public int getAge() {
 public void setAge(int age) {
     this.age = age;
 }
+public Laptop getLaptop() {
+    return laptop;
+}
+public void setLaptop(Laptop laptop) {
+    this.laptop = laptop;
+}
 
 }
