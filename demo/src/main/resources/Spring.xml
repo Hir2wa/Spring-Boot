@@ -7,7 +7,11 @@
     <!-- bean definitions here -->
    
      <bean id ="dev" class = "com.example.demo.Dev">
-     <property   name ="age" value = "90" /> 
+     <!-- <property   name ="age" value = "90" />  -->
+      <!-- <constructor-arg index="0" value="18"/> -->
+       <constructor-arg index="0" value="10"></constructor-arg>
      </bean>
    <!-- we also use the constructor whre we use the index unless we have the multiple  parameter insided our  constructor  -->
+
+
 </beans>
