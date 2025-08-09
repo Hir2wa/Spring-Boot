@@ -12,7 +12,7 @@ public static void main(String[] args) {
     ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
 
  Dev dev =  context.getBean(Dev.class);
- dev.setAge(9);
+//  dev.setAge(9);
  System.out.println( dev.getAge());
 
 }
