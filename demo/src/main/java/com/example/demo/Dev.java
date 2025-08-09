@@ -4,8 +4,8 @@ public class Dev {
   private int age;
   
 
-    public Dev () {
-        System.out.println("Constructor of the dev");
+    public Dev (int age) {
+         this.age =  age;
     }
 public  void build (){
     System.out.println("working on owersome project");
