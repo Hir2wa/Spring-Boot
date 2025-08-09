@@ -9,9 +9,11 @@
      <bean id ="dev" class = "com.example.demo.Dev">
      <!-- <property   name ="age" value = "90" />  -->
       <!-- <constructor-arg index="0" value="18"/> -->
+       <property name="" ref="lap"></property>
        <constructor-arg index="0" value="10"></constructor-arg>
      </bean>
    <!-- we also use the constructor whre we use the index unless we have the multiple  parameter insided our  constructor  -->
 
-
+   <bean name="lap"  class="com.example.demo.Laptop"></bean>
+   <!--  here we are wiring  puting laptop class  inside the  develop class  -->
 </beans>
