@@ -6,6 +6,8 @@
 
     <!-- bean definitions here -->
    
-     <bean id ="dev" class = "com.example.demo.Dev"/>
+     <bean id ="dev" class = "com.example.demo.Dev">
+     <property   name ="age" value = "90" /> 
+     </bean>
    
 </beans>
