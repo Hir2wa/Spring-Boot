@@ -2,7 +2,8 @@ package com.example.demo;
 
 public class Dev {
   private int age;
-  
+private Laptop laptop;
+
 
     public Dev (int age) {
          this.age =  age;
