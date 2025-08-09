@@ -14,6 +14,6 @@ public static void main(String[] args) {
  Dev dev =  (Dev)  context.getBean("dev");
 //  dev.setAge(9);
  System.out.println( dev.getAge());
-
+ dev.getLaptop().compiler();
 }
 }
